@@ -29,7 +29,7 @@ def validate(circles, blockers):
     # Is circle good for each other?
     i=0
     for circle1 in circles[:]:
-        i++
+        i=i+1
         for circle2 in circles[i:]:
             x1 = circle1[0]
             y1 = circle1[1]
